@@ -45,7 +45,7 @@ const btnOver = document
   });
 
   // ? WHEN CLİCK ENTER KEY FROM KEYBOARD
-document.addEventListener("keyup", (e) => {
+document.addEventListener("keydown", (e) => {
   e.key === "Enter" && createRandomColor()
 });
 
